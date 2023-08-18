@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Balthazar', serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bag.jpg');
+    }
+
+    .left {
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 20px;
+        font-size: 24px;
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 33%;
+        margin: 42px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 15px;
+        top: 50px;
+        /* border: 2px solid blue; */
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 21px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Balthazar', serif;
+        margin: 0px 8px;
+        background-color: black;
+        color: white;
+        padding: 4px 20px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(85, 64, 42);
+    }
+
+    .cont {
+        border: 2px solid white;
+        margin: 78px 108px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 458px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 10px auto;
+        font-size: 24px;
+        border-radius: 6px;
+        font-family: 'Balthazar', serif;
+    }
+
+    .cont h1 {
+        text-align: center;
+    }
+
+    .cont button {
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/weight-1399281_1280.png" alt="">
+            <div>Dinker Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="cont">
+        <h1>Join the best gym of hyderabad</h1>
+        <form action="noactoin.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your Mobile Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
