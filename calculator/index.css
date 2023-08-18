@@ -1,0 +1,23 @@
+.texta{
+    width: 187px;
+    height: 40px;
+    text-align:right;
+    margin: 3px;
+    
+}
+.container{
+    border: 2px solid black;
+    width: 200px;
+    height: 305px;
+    margin: 20px;
+    padding: 3px;
+}
+.number , .symbol{
+    border: 1px solid black;
+    font-size: larger;
+    box-sizing: border-box;
+    width: 42px;
+    height: 45px;
+    margin: 2.5px;
+    cursor: pointer;
+}
