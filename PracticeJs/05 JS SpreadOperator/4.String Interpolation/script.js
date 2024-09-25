@@ -8,5 +8,4 @@ let myString5 = "age is";
 
 //let myFinalString = "my name is" +myString2 + ' ' + myString3 
 let myFinalString = `my name is ${myString2}. I sta'y in ${myString4} and my age " is ${2023 - 1985}`;
-console.log("myFinalString", myFinalString);
-7
+console.log("myFinalString", myFinalString);d
